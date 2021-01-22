@@ -20,9 +20,22 @@ body{
     background-color: transparent;
     border: 1px solid white;
     margin-bottom: 1rem;
+    color: white;
+    transition: background-color 2s ease , color 2s ease;
+}
+.transparent:hover{
+    background-color: white;
+    color: green;
+    text-decoration: none;
 }
 .space-between{
     justify-content: space-evenly;
+}
+.bg-black{
+    background-color: #080D13;
+}
+a{
+    text-decoration: none;
 }
 
 
