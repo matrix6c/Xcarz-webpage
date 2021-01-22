@@ -1,0 +1,26 @@
+body{
+    background-image: url(../assets/images/Hyundai.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.x{
+    font-weight: 900;
+    font-size: 50px;
+    font-style: oblique;
+    color: rgb(250, 57, 57);
+}
+.carz{
+    color: #6f6632;
+}
+
+
+
+@media(max-width:750px){
+    body{
+        background-image: url(../assets/images/Hyundai.jpg);
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: 36rem 35rem;
+    }
+}
