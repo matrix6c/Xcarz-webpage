@@ -4,6 +4,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbar{
+    background-color: black;
+}
 .x{
     font-weight: 900;
     font-size: 50px;
@@ -13,6 +16,14 @@ body{
 .carz{
     color: #6f6632;
 }
+.transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+.space-between{
+    justify-content: space-evenly;
+}
 
 
 
@@ -21,6 +32,19 @@ body{
         background-image: url(../assets/images/Hyundai.jpg);
         background-position: fixed;
         background-repeat: no-repeat;
-        background-size: 36rem 35rem;
+        background-size: 36rem 40rem;
+    }
+}
+
+
+@media(max-width:515px){
+    .center-text-515{
+        text-align: center;
+    }
+    .f-size-22-515{
+        font-size: 42px;
+    }
+    .w-90-515{
+        width: 90%;
     }
 }
