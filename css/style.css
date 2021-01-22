@@ -40,6 +40,37 @@ a{
 .flex{
     display: flex;
 }
+.footer-section{
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+  }
+  .h{
+    font-size: 20px;
+    font-weight: 600;
+    font-style:  Foundersgrotesk, sans-serif;
+    color: #000000;
+    font-style:  Foundersgrotesk, sans-serif
+  }
+  .sub-h{
+    font-size: 13px;
+    color: #484444;
+    font-style:  Foundersgrotesk, sans-serif;
+  } 
+  .footer-section a:hover{
+    color: #000000;
+  }
+  .space-evenly{
+    justify-content: space-evenly;
+}
+.wrapping{
+    flex-wrap: wrap;
+  }
+  .l-h-1{
+    line-height: 24px;
+  }
+
 
 
 
@@ -50,6 +81,20 @@ a{
         background-repeat: no-repeat;
         background-size: 36rem 40rem;
     }
+    .footer-section{
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+      }
+      .fr-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      .m-b-3{
+        margin-bottom: 3rem;
+      }
 }
 
 
@@ -66,4 +111,10 @@ a{
     .w-90-515{
         width: 90%;
     }
+    .footer-section{
+        padding-left: 5px;
+        padding-bottom: 2rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+      }
 }
