@@ -72,10 +72,53 @@ a{
   }
 
 
+/* =========================cart-=================== */
+.sign-up-btn{
+    border-radius: 4rem;
+    padding: 4px 18px;
+    transition: padding 1s ease-out , border 1s , color 1s;
+    border: 2px solid white;
+    color: green;
+}
+.sign-up-btn:hover{
+    padding: 10px 33px;
+    box-shadow: 0,0,0,o.55 black;
+    text-decoration: none;
+    color: white;
+    border: 2px solid green;
+}
+@keyframes fadein {
+    from{
+        opacity: -3;
+    }
+    25%{
+        opacity: -2;
+    }
+    50%{
+        opacity: -1;
+    }
+    75%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fade-in{
+    animation-name: fadein;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0ms;
+    animation-iteration-count: fixed;
+    animation-fill-mode: none;
+    animation-play-state: unset;
+}
+
+
 
 
 @media(max-width:750px){
-    body{
+    .bgg-car{
         background-image: url(../assets/images/Hyundai.jpg);
         background-position: fixed;
         background-repeat: no-repeat;
