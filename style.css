@@ -70,6 +70,9 @@ a{
   .l-h-1{
     line-height: 24px;
   }
+  a:hover{
+    text-decoration: none;
+  }
 
 
 /* =========================cart-=================== */
@@ -80,12 +83,26 @@ a{
     border: 2px solid white;
     color: green;
 }
+.sign-up-btn-2{
+    border-radius: 4rem;
+    padding: 4px 18px;
+    transition: border 1s , color 1s , transform 1s ;
+    border: 2px solid white;
+    color: green;
+}
 .sign-up-btn:hover{
     padding: 10px 33px;
     box-shadow: 0,0,0,o.55 black;
     text-decoration: none;
     color: white;
     border: 2px solid green;
+}
+.sign-up-btn-2:hover{
+    box-shadow: 0,0,0,o.55 black;
+    text-decoration: none;
+    color: white;
+    border: 2px solid green;
+    transform: translateY(-10px);
 }
 @keyframes fadein {
     from{
@@ -106,12 +123,39 @@ a{
 }
 .fade-in{
     animation-name: fadein;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-timing-function: ease-out;
     animation-delay: 0ms;
     animation-iteration-count: fixed;
     animation-fill-mode: none;
     animation-play-state: unset;
+}
+
+
+
+/* ==========================signup-page============================ */
+.bg-1{
+    background-image:linear-gradient(rgba(0,0,0,0.55) , rgba(0,0,0,0.55)) ,url(../assets/images/sign-up-car.jpg);  
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+}
+.overflow-x-hidden{
+    overflow: hidden;
+}
+.input::placeholder{
+    color: green;
+}
+.input{
+    padding: 7px 22px;
+    border-radius: 1rem;
+    outline: 0;
+    transition: padding 1s;
+
+}
+.input:hover{
+    padding: 7px 30px; 
 }
 
 
