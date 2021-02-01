@@ -1,5 +1,5 @@
 .bg-car{
-    background-image: url(../assets/images/Hyundai.jpg);
+    background-image: url(assets/images/Hyundai.jpg);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +135,7 @@ a{
 
 /* ==========================signup-page============================ */
 .bg-1{
-    background-image:linear-gradient(rgba(0,0,0,0.55) , rgba(0,0,0,0.55)) ,url(../assets/images/sign-up-car.jpg);  
+    background-image:linear-gradient(rgba(0,0,0,0.55) , rgba(0,0,0,0.55)) ,url(assets/images/sign-up-car.jpg);  
     background-position: 100% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,7 +163,7 @@ a{
 
 @media(max-width:750px){
     .bgg-car{
-        background-image: url(../assets/images/Hyundai.jpg);
+        background-image: url(assets/images/Hyundai.jpg);
         background-position: fixed;
         background-repeat: no-repeat;
         background-size: 36rem 40rem;
